@@ -1,0 +1,99 @@
+#jy_content_right{
+	font-size: 14px;
+}
+#biaoDan{
+	position:relative;
+	left:51px;
+	top:35px;
+	width:400px;
+	height:60px;
+	line-height: 60px;
+	/*border:1px solid orange;*/
+}
+.dx_content{
+	position:absolute;
+	left:0px;
+}
+.bold1{
+	font-weight:bold;
+}
+#dx_chaXun{
+	position:relative;
+	margin-top: 19px; 
+	display: inline-block;
+	float:right;
+	width:88px;
+	background-color: #dfeaca;
+	border:1px solid #6db847;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#dx_zhangHuBiao{
+	position: relative;
+	width:647px;
+	border-right:1px solid #bbd1a4;
+	border-bottom:1px solid #bbd1a4;
+	margin-left: 51px;
+	margin-top: 50px;
+	text-align: center;
+}
+#dx_biaoTou{
+	width:647px;
+	background-color: #dee9ca;
+}
+#dx_biaoTou2,#dx_biaoTou4{
+	background-color: #f6f9f0;
+}
+.dx_td1{
+	font-weight:bold;
+}
+table td{
+	border-left:1px solid #bbd1a4;
+	border-top:1px solid #bbd1a4;
+	height:33px;
+}
+.dx_huanYe{
+	position: relative;
+	float: right;
+	margin-top:20px;
+	/*border:1px solid orange;*/
+	margin-right: 30px;
+	width:290px;
+}
+.dx_ye{
+	display: inline-block;
+	width:24px;
+	text-decoration: underline;
+}
+.dx_tiShi{
+	position: relative;
+	margin-top: 20px;
+	margin-left: 67px;
+}
+#dx_lianXi{
+	/*position:relative;*/
+	width:88px;
+	background-color: #dfeaca;
+	border:1px solid #6db847;
+	border-radius: 5px;
+	cursor: pointer;
+}
+a:hover{
+
+}
+.danyuan{
+	line-height: 28px;
+	margin-left: 2px;
+	margin-right: 2px;
+	/*height:25px;*/
+}
+#dx_tongzhi{
+	margin-top:30px;
+	float:right;
+	width:88px;
+	background-color: #dfeaca;
+	border:1px solid #6db847;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-right: 53px;
+}

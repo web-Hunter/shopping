@@ -1,0 +1,54 @@
+#A{
+	background-color: palegreen;
+	width: 680px;
+	height: 30px;
+}
+#A,#b,#c,#c1,#c2,#B1,#B2{
+	float: left;
+}
+#b{
+	margin-top: 5px;
+}
+#c{
+	margin-left: 15px;
+	margin-top: 12px;
+}
+#clo{
+	float: right;
+	
+}
+#img1{
+	width: 20px;
+	height: 20px;
+	
+}
+table {
+    border-collapse: collapse;
+    margin: 10px;
+    line-height: 30px;
+}
+
+table tr td {
+    white-space: nowrap;
+    text-align: left;
+}
+
+.divid {
+    color: red;
+}
+
+.zr_btn03 {
+    width: 60px;
+    height: 28px;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+#B3{
+	position: absolute;
+	top: 80px;
+	left: 50px;
+}
+#A2{
+	margin-left: 40px;
+}
+

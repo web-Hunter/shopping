@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a:link,a:visited{
+	text-decoration: none;
+}
+
+#szy_body{
+	width: 700px;
+	font:16px "microsoft yahei";
+	padding-left: 50px;
+}
+
+table{
+	border-spacing: 0;
+	width: 100%;
+}
+
+#szy_ul1>ul>li{
+	list-style-type: none;
+	text-align:center;
+	width: 133px;
+	height: 21px;
+	float: left;
+	background: url("../images/tab_u58.png");
+}
+
+#szy_ul1>ul>li:hover {
+    background: url("../images/tab_u380_disabled.png");
+}
+
+#szy_tab1{
+	position: absolute;
+    position: fixed;  
+	display: block;
+}
+
+#szy_tab2,#szy_tab3{
+	position: absolute;
+    position: fixed;  
+	display: none;
+}
+
+#szy_tab1>table,#szy_tab2>table,#szy_tab3>table{
+	width: 700px;
+	text-align: center;
+}
+
+

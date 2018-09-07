@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新会员管理</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/修改用户.css"/>
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/jquery-1.7.2.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/hwh.js" type="text/javascript" charset="utf-8"></script>
+    
+    <script src="js/index.js"></script>
+   
+</head>
+<body>
+<div id="jy_body">
+    <div id="jy_header">
+        <ul>
+            <li><span>你好，admin</span></li>
+            <li><span>角色：系统管理员</span></li>
+            <span></span>
+            <li><a href=""><img src="images/u127.png" alt=""><span>&nbsp;4&nbsp;</span></a></li>
+            <li><a href="">[首页]</a></li>
+            <li><a href="">[留言板]</a></li>
+            <li><a href=""><img src="images/u121.png" alt="">&nbsp;[1]</a></li>
+            <li><a href="">[修改密码]</a></li>
+            <li><a href="">[注销]</a></li>
+        </ul>
+        <div><a href=""></a></div>
+    </div>
+    <div id="jy_content">
+        <div id="jy_content_left">
+            <ul>
+                <li><a href="" class="current">后台管理</a>
+                    <ul class="content">
+                        <li><a href="../后台管理/用户管理.html" class="first">·用户管理</a></li>
+                        <li><a href="">·角色管理</a></li>
+                        <li><a href="">·权限管理</a></li>
+                        <li><a href="../后台管理/商品管理.html">·商品管理</a></li>
+                        <li><a href="../后台管理/商品套餐管理.html">·商品套餐管理</a></li>
+                        <li><a href="">·基础信息</a></li>
+                        <li><a href="">·数据字典</a></li>
+                    </ul>
+                </li>
+                <li><a href="">会员管理</a>
+                    <ul class="content">
+                        <li><a href="../会员管理/注册新会员.html"class="first">·注册新会员</a></li>
+                        <li><a href="../会员管理/新会员管理.html">·新会员管理</a></li>
+                        <li><a href="../会员管理/修改本人资料.html">·修改本人资料</a></li>
+                        <li><a href="../会员管理/修改本人密码.html">·修改本人密码</a></li>
+                    </ul>
+                </li>
+                <li><a href="">电子银行</a>
+                    <ul class="content">
+                        <li><a href="../电子银行/汇款充值.html"class="first">·汇款充值</a></li>
+                        <li><a href="../电子银行/基本账户.html">·基本账户</a></li>
+                        <li><a href="../电子银行/消费账户.html">·消费账户</a></li>
+                        <li><a href="../电子银行/内部转账.html">·内部转账</a></li>
+                        <li><a href="../电子银行/申请提现.html">·申请提现</a></li>
+                        <li><a href="../电子银行/提现明细.html">·提现明细</a></li>
+                    </ul>
+                </li>
+                <li><a href="">购物管理</a>
+                    <ul class="content">
+                        <li><a href="../购物管理/报单购货.html"class="first">·报账购货</a></li>
+                        <li><a href="../购物管理/确认激活.html">·确认激活</a></li>
+                        <li><a href="../购物管理/重消购货.html">·重消购货</a></li>
+                        <li><a href="../购物管理/辅消购货.html">·辅消购货</a></li>
+                        <li><a href="../购物管理/购货管理.html">·购货管理</a></li>
+                    </ul>
+                </li>
+                <li><a href="">信息查询</a>
+                    <ul class="content">
+                        <li><a href="../信息查询/奖励查询.html"class="first">·奖励查询</a></li>
+                        <li><a href="../信息查询/推荐查询.html">·推荐查询</a></li>
+                        <li><a href="">·区域查询</a></li>
+                        <li><a href="../信息查询/操作须知.html">·操作须知</a></li>
+                    </ul>
+                </li>
+                <li><a href="">资讯管理</a>
+                    <ul class="content">
+                        <li><a href="../资讯管理/公告管理.html"class="first">·公告管理</a></li>
+                        <li><a href="../资讯管理/资讯管理.html">·资讯管理</a></li>
+                        <li><a href="../资讯管理/下载中心.html">·下载中心</a></li>
+                        <li><a href="../资讯管理/留言管理.html">·留言管理</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div id="jy_content_right">
+        	
+		<div id="c" style="margin-left: 60px;">会员列表</div>
+		<div id="d">
+			<button class="d1" style="background-color: lightgreen;border-radius: 5px;width: 70px;margin-left: -80px;margin-top: 30px;" onclick="init()">修改</button>
+			<button onclick="btr()" class="d2" style="background-color: lightgreen;border-radius: 5px;width: 70px;">删除</button>
+			
+			<div id="e">
+				
+			
+			<input type="text" name="" id="" value="请输入关键字" />
+			<button style="background-color: lightgreen;border-radius: 5px;width: 70px;">查询</button>
+		</div>
+		</div>
+		<div>
+			<table border="1" bordercolor="green" cellspacing="0" cellpadding="0" style="border-collapse: collapse;width: 88%;margin-top: 10px;margin-left: 40px;" >
+				<tr bgcolor="lightgreen">
+				<td>选择</td>
+				<td>用户名</td>
+				<td>真实姓名</td>
+				<td>联系电话</td>
+				<td>推荐人</td>
+				<td>注册时间</td>
+				</tr>
+				<tr>
+				<td style="text-align: center;"><input type="radio" /></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				</tr>
+				<tr>
+				<td style="text-align: center;"><input type="radio" /></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				</tr>
+				<tr>
+				<td style="text-align: center;"><input type="radio" /></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				</tr>
+				<tr>
+				<td style="text-align: center;"><input type="radio" /></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				</tr>
+			</table>
+		</div>
+		<div style="margin-top: 60px;float: right;margin-right: 50px;">
+			
+			<a href="">1</a>&nbsp;
+			<a href="">2</a>&nbsp;
+			<a href="">3</a>&nbsp;
+			<a href="">4</a>&nbsp;
+			<a href="">5</a>&nbsp;
+			<a href="">6</a>&nbsp;
+			<a href="">7</a>&nbsp;
+			<a href="">8</a>&nbsp;
+			<a href="">9</a>&nbsp;
+			<img src="images/3.png"/>&nbsp;
+			<a href="">Next</a>
+		</div>
+        </div>
+        <div id="ss" style="position: absolute;   width: 400px;height: 200px;margin-left: 400px;margin-top: 100px; border: 2px solid dimgrey; background-color: beige;display: none;">
+			<div style="width: 400px;height: 40px;background-color: gainsboro;" >
+				<div style="float: left;"><img src="images/6.png"/></div>
+				<div style="float: left;"><span>提示</span></div>
+				<div style="float: left;width: 30px;height: 16px; margin-left: 140px;"><a href="新会员管理.html"><button style="width: 33px;height: 20px; margin-left: 140px;"><img src="images/5.png"/></button></a></div>
+			</div>
+			<div style="width: 400px;height: 120px; ">
+				<div style="float: left;margin: 30px;"><img src="images/7.png"/></div>
+				<div style="float: left;margin-left: -15px;margin-top: 30px;">你确定你要删除会员吗</div>
+			</div>
+			<div style="width: 400px;height: 40px;">
+				<button style="margin-left: 70px;margin-top: 10px;" onclick="BT2()">确定</button>
+				<button style="margin-left: 90px;"><a href="新会员管理.html">取消</a></button>
+			</div>
+			
+		</div>
+		
+		
+		
+		
+		<div id="sb" style="position: absolute;   width: 400px;height: 200px;margin-left: 400px;margin-top: 100px; border: 2px solid dimgrey; background-color: beige;display: none;">
+			<div style="width: 400px;height: 40px;background-color: gainsboro;" >
+				<div style="float: left;"><img src="images/6.png"/></div>
+				<div style="float: left;"><span>提示</span></div>
+				<div style="float: left;width: 30px;height: 16px; margin-left: 140px;"><a href="新会员管理.html"><button style="width: 33px;height: 20px; margin-left: 140px;"><img src="images/5.png"/></button></a></div>
+			</div>
+			<div style="width: 400px;height: 120px; ">
+				<div style="float: left;margin-left: 150px;margin-top: 30px;"><img src="images/8.jpg"/></div>
+				<div style="float: left;margin-top: 30px;">删除成功</div>
+			</div>
+			<div style="width: 400px;height: 40px;">
+				<button style="margin-left: 170px;margin-top: 10px;"><a href="新会员管理.html">确定</a></button>
+				
+			</div>
+			
+		</div>
+        
+        
+        
+        
+        
+        
+        
+        
+        <div id="A1" style=" background-color: beige;   width: 75%;height: 100%;margin-top: 5px;margin-left: 250px;display: none;" >
+		
+	
+    <div id="A" style="background-color:palegreen;">
+			
+		
+		<div id="b"><img src="images/4.jpg"/></div>
+		<div id="c">修改会员</div>
+		
+		<div id="clo">
+		<button id="clo1"><img src="images/5.png"/></button>
+		
+			
+		</div>
+		
+		
+		</div>
+		<hr style="width: 680px;margin-top: 10px;"/>
+    <table width="40%">
+        <tr>
+            <td>角色：会员</td>
+            
+            <td>会员类型：注册会员</td>
+            
+        </tr>
+        <tr>
+            <td>用户名：</td>
+            <td>
+                <input type="text">
+            </td>
+            <td>真实姓名：</td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>证件类型：</td>
+            <td>
+                <form>
+                    <select name="myself" style="width: 173px;height: 22px;">
+                        <option>--请选择--</option>
+                        <option value="二代身份证">二代身份证</option>
+                        <option value="护照">护照</option>
+                        <option value="军官证">军官证</option>
+                    </select>
+                </form>
+            </td>
+            <td>证件号码：</td>
+            <td>
+                <input type="number">
+            </td>
+        </tr>
+        <tr>
+            <td>收货国家(地区)：</td>
+            <td>
+                <form>
+                    <select name="contry" style="width: 173px;height: 22px;">
+                        <option>--请选择--</option>
+                        <option value="中国">中国</option>
+                        <option value="美国">美国</option>
+                    </select>
+                </form>
+            </td>
+            <td>移动电话：</td>
+            <td>
+                <input type="number">
+            </td>
+        </tr>
+        <tr>
+            <td>电子邮件：</td>
+            <td>
+                <input type="email">
+            </td>
+            <td>邮政编码：</td>
+            <td>
+                <input type="number">
+            </td>
+        </tr>
+        <tr>
+            <td>推荐人：</td>
+            <td>
+                <input type="number">
+            </td>
+            <td>联系电话：</td>
+            <td>
+                <input type="number">
+            </td>
+        </tr>
+        <tr>
+            <td>收货地址</td>
+            <td colspan="3">
+                <textarea rows="5" cols="60" style="width:475px; height:40px"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>开户行：</td>
+            <td>
+                <input type="text">
+            </td>
+            <td>开户卡号：</td>
+            <td>
+                <input type="number">
+            </td>
+        </tr>
+        <tr>
+            <td>开户人：</td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>上传身份证图片(正反面)：</td>
+            <td>
+                <form action="#">
+                    <input type="text" name="image1">
+                    <input type="submit" value="浏览">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>上传银行卡图片：</td>
+            <td>
+                <form action="#">
+                    <input type="text" name="image2">
+                    <input type="submit" value="浏览">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div class="divid">注：1.用户名需验证唯一性</div>
+                
+            </td>
+            <td>
+                <button class="d5" style="background-color: lightgreen;border-radius: 5px;width: 70px;float: right;"><a href="新会员管理.html">保存</a></button>
+            </td>
+            <td>
+                <button class="d6" style="background-color: lightgreen;border-radius: 5px;width: 70px;float: right;"><a href="新会员管理.html">关闭</a></button>
+            </td>
+        </tr>
+    </table>
+    </div>
+    </div>
+    
+    
+    <!--<div style="width: 300px;height: 500px;display: none;" id="ss">
+    	<div id="a6" style="background-color: #ADD8E6;float:left ;width: 300px;height: 26px;">
+    		<div style="float: left;"><img src="images/6.png" width="30px" height="20px" style="margin-top: 5px;"/> </div>
+    		<div style="float: left;"><span style="margin-left:3px ;">提示</span></div>
+    		<div id="a7" style="float: left;margin-left: 200px;">
+    			
+    		<button style="width: 16px;height: 13px;"><img src="images/5.png"/ "></button>
+    		</div>
+    	</div>
+    	<div id="B" style="">
+    		<div style="float: left;"><img src="images/7.png"/></div>
+    		<div style="float: left;">确定删除该会员吗?</div>
+    	
+    	</div>
+    	<div>
+    		<input type="button" id="ff" value="确定" onclick="Btn()"/>&nbsp;&nbsp;&nbsp;&nbsp;
+    		<input type="button" id="" value="取消" />
+    	</div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    <div style="width: 300px;height: 500px;display: none;" id="yy">
+    	<div id="a6" style="background-color: #ADD8E6;float:left ;width: 300px;height: 26px;">
+    		<div style="float: left;"><img src="images/6.png" width="30px" height="20px" style="margin-top: 5px;"/> </div>
+    		<div style="float: left;"><span style="margin-left:3px ;">提示</span></div>
+    		<div id="a7" style="float: left;margin-left: 200px;">
+    			
+    		<button style="width: 16px;height: 13px;"><img src="images/5.png"/ "></button>
+    		</div>
+    	</div>
+    	<div id="B" style="">
+    		<div style="float: left;"><img src="images/7.png"/></div>
+    		<div style="float: left;">确定删除该会员吗?</div>
+    	
+    	</div>
+    	  <button><a href="index.html">确定</a></button>
+    	  <button>取消</button>
+    </div>-->
+    
+    <!--<div>
+    <div id="A">
+		<div id="b"><img src="images/6.png"/></div>
+		<div id="c">提示</div>
+		<div id="clo">
+		<button id="clo1"><img src="images/5.png"/ id="img1"></button>
+			
+		</div>
+		
+	</div>
+	<div id="B" style="width: 100%;height: 180px;">
+		<div id="B3">
+		
+		<div id="B1"><img src="images/7.png"/></div>
+		<div id="B2">确定删除该会员吗?</div>
+		</div>	
+		
+			
+			
+		<button class="d6" style="background-color: lightgreen;border-radius: 5px;width: 70px;">确定</button>
+		<button class="d7" style="background-color: lightgreen;border-radius: 5px;width: 70px;">取消</button>
+		
+	</div>
+	<hr style="width: 100%;margin-top: 10px;"/>	
+    
+    </div>-->
+    
+ 
+</div>
+
+</body>
+</html>

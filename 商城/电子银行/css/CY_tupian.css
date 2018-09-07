@@ -1,0 +1,167 @@
+@charset "UTF-8";
+.cy_axtext{
+    font-family: 'Arial Normal', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #333333;
+    text-align: left;
+    line-height: normal;
+}
+#cy_u0{
+    position: relative;
+    left: 60px;
+    top: 13px; 
+    width: 53px;
+    white-space: nowrap;
+}
+
+#cy_u1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 53px;
+    white-space: nowrap;
+}
+#cy_u2{
+    position: absolute;
+    left: 67px;
+    top: 0px;
+    width: 73px;
+    height: 16px;
+}
+#cy_u3{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 73px;
+    white-space: nowrap;
+}
+#cy_u4{
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    width: 100%;
+}
+#cy_u411{
+    position: absolute;
+    left: 30px;
+    top: 0px;
+    width: 100%;
+    padding:5px;
+}
+#cy_u41{
+    position: absolute;
+    left: 160px;
+    top: 0px;
+    width: 100%;
+    padding:5px;
+}
+#cy_u42{
+    position: absolute;
+    left: 128px;
+    top: 40px;
+    width: 100%;
+    padding:5px;
+}
+#cy_u421{
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    width: 100%;
+    padding:5px;
+}
+#cy_u43{
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    width: 100%;
+    padding:5px;
+}
+#cy_u433{
+    position: absolute;
+    left: 30px;
+    top: 80px;
+    width: 100%;
+    padding:5px;
+}
+#cy_u444{
+    position: absolute;
+    left: 30px;
+    top: 120px;
+    width: 100%;
+    padding:5px;
+}
+#cy_u44{
+    position: absolute;
+    left: 126px;
+    top: 120px;
+    width: 100%;
+    padding:5px;
+}
+
+#cy_u5{
+    position: absolute;
+    left: 500px;
+    top: 300px;
+    text-align: center;
+}
+#cy_u6{
+    position: absolute;
+    left: 110px;
+    top: 160px;
+    width: 100%;
+    padding:5px;
+}
+#cy_u7{
+    position: absolute;
+    left: 126px;
+    top: 200px;
+    width: 100%;
+    padding:5px;
+}
+
+#cy_u8{
+    position: absolute;
+    margin: 0px
+    left: 0px;
+    top: 30px;
+    width: 100%;
+    padding:5px;
+    display: inline; 
+}
+#cy_u9{
+    position: absolute;
+    left: 0px;
+    top: 100px;
+   
+}
+td{
+    border:1px #0066ff solid;
+    width: 500px;
+    height: 30px;
+    text-align: center;
+}
+.table{
+    border-collapse:collapse;
+    width: 635px;
+    height: 150px;
+}
+#tr1{
+    background-color: #6db847;
+}
+#tr2{
+    background-color: #fafad2;
+}
+#tr3{
+    background-color: #dfeaca;
+}
+#cy_u10{
+    position: absolute;
+    left: 500px;
+    top: 400px;
+}
+#cy_u10 a{
+    color: #6db847;
+    font-size: 20px;
+}

@@ -1,0 +1,35 @@
+@charset "utf-8";
+#C1{
+	margin-left:60px;
+	margin-top: 10px;
+}
+#C4{
+	margin-top: 20px;
+    margin-left:50px;
+}
+#C8{
+	margin-top: 20px;
+    margin-left:50px;
+}
+
+#C4{
+	margin-top: 20px;
+}
+
+#C22,#C23{
+	float: left;
+    ;
+}
+#C22{
+	margin-left: 480px;
+}
+#C23{
+	margin-left: 10px;
+}
+
+#C11,#C12,#C13,#C14,#C15,#C16,#C17,#C18,#C19,#C20,#C21{
+	float: left;
+	
+	margin-top: 20px;
+	margin-left: : 120px;
+}

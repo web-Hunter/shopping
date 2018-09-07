@@ -1,0 +1,39 @@
+a:link,a:visited{
+	text-decoration: none;
+}
+a:active{
+	background: #000500;
+}
+
+#szy_left{
+	width: 180px;
+	height: 600px;
+	float: left;
+	padding-left: 40px;
+}
+
+li{
+	list-style-type: none;
+}
+
+#szy_left>ul>li{
+	list-style-image: url(../images/u51.png); 
+	line-height: 30px;
+
+}
+
+#szy_left ul li ul{
+	display:block;
+}
+
+#szy_right{
+	padding-top: 1px;
+}
+
+#szy_right>#szy_xx{
+	padding-left:50px; 
+}
+
+#szy_xx>ul>li{
+	line-height: 40px;
+}

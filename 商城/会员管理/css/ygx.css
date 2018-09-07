@@ -1,0 +1,181 @@
+#ygx_1,#yohu,#tu,#hu{
+	float: left;
+	/*padding-left: 10px;*/
+	/*margin-left: 135px;*/
+}
+#yohu{
+	margin-left: 165px;
+}
+#jy_content>#ygx_right{
+	width: 729px;
+    height: 600px;
+    /*position: absolute;*/
+    margin-left: 35px;
+    float: left;
+}
+#ygx_2,#ss{
+	margin-left: 166px;
+}
+
+#img_1{
+	margin-top: 5px;
+}
+/*#hr1{
+	width: 100%;
+	margin-top: 20px;
+}*/
+/*div>ul{
+	margin-left: 0px;
+}*/
+div>ul>li{
+    font-size: 13px;
+    /*font-family: castellar;*/
+	/*color: black;*/
+}
+div>ol>li{
+	font-size: 13px;
+	/*color: black;*/
+	/*font-family: "微软雅黑";*/
+}
+#ch{
+	margin-left: 230px;
+	width: 25px;
+	height: 20px;
+
+}
+#ch>span{
+	font-size: 2px;
+}
+#btn1{
+	border-radius: 5px;
+	width: 80px;
+	height: 30px;
+	margin-left: 30px;
+	border: 2px solid lightgreen;
+
+}
+/*#but,#che{
+	float: left;
+}*/
+#ygx_1{
+	margin-left: 10px;
+	margin-top: 12px;
+}
+#ygx_2>#ygx_3{
+	margin-top: 40px;
+	font-size: 10px;
+}
+#ygx_4{
+	margin-top: 12px;
+	font-size: 14px;
+}
+#ygx_5{
+	font-size: 12px;
+}
+.ygx_1{
+	display: none;
+}
+.ygx_2{
+	margin-top: 14px;
+	font-size: 16px;
+
+}
+/*#a{
+	margin-left: 210px;
+}*/
+.ygx_2>#a{
+	margin-left: 210px;
+}
+/*#ta{
+	margin-left: 63px;
+	width: 500px;
+	height: 200px;
+	align-content: center;
+}*/*/
+#ta>#ttr{
+	width: 20%;
+}
+/*#ttd{
+	margin-left: 40px;
+}*/
+#fo{
+	margin-left: 190px;
+	margin-top: 20px;
+	align-content: center;
+	
+}
+/*#name{
+	margin-left: 20px;
+}*/
+#fo>input{
+	width: 169px;
+	text-align: center;
+}
+/*#ka,#kai,#Name,#pe,#zheng{
+	margin-left: 30px;
+}*/
+.ygx_3{
+	display: none;
+}
+.ygx_4{
+	margin-top: 12px;
+}
+.ygx_4>#a1{
+	margin-left: 210px;
+	
+}
+/*#fon{
+	margin-left: 20px;
+	align-content: center;
+}*/
+#a2{
+	margin-left: 200px;
+	margin-top: 30px;
+	/*line-height: 5px;*/
+}
+#a3,#a7{
+	margin-left: 300px;
+}
+#a4{
+	margin-left: 350px;
+}
+#a5{
+	margin-left: 360px;
+}
+#a6,#a8{
+	margin-left: 330px;	
+}
+#a9{
+	margin-left: 260px;
+}
+.ygx_5{
+	display: none;
+}
+#a10{
+	margin-left: 200px;
+}
+#a10>span{
+	color: red;
+	font-size: 5px;
+}
+#a20{
+	margin-left: 230px;
+	/*text-align: inherit;*/
+}
+#a22{
+	margin-left: 400px;
+	border-radius: 0.5;
+	border: 1 solid darkgreen;
+}
+#bo:hover{
+	background-color: darkgreen;
+}
+#bt:hover{
+	background-color: darkgreen;
+}
+#a22:hover{
+	background-color: darkgreen;
+}
+#bu:hover{
+	background-color: darkgreen;
+}

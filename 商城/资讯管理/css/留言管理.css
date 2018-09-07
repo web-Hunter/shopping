@@ -1,0 +1,447 @@
+/*#jy_content>#jy_content_right{*/
+    /*width: 750px;*/
+    /*height: 600px;*/
+    /*position: absolute;*/
+    /*right: 0px;*/
+/*}*/
+
+
+#jy_content_right_top{
+    width: 750px;
+    height: 80px;
+    position: relative;
+    /*background: purple;*/
+}
+#jy_content_right_top_top{
+    font-size: 13px;
+    position: absolute;
+    top: 13px;
+    left: 57px;
+    width: 150px;
+    background: #FFFFFF;
+}
+#jy_content_right_top_top1{
+    position: absolute;
+    top: 13px;
+    right: 50px;
+    font-size: 13px;
+    width: 80px;
+}
+#jy_content_right_top_bottom{
+    position: absolute;
+    bottom: 5px;
+    left: 50px;
+}
+#jy_content_right_top_bottom>button{
+    width: 120px;
+    height: 18px;
+    font-size: 12px;
+    background: #FFFFFF;
+    /*background: rgb(218,237,202);*/
+    border: 1px solid #000;
+    /*border: 1px solid #1dba34;*/
+    border-radius: 5px;
+    margin-right: 10px;
+}
+#jy_content_right_bottom{
+    width: 750px;
+    height: 400px;
+    display: none;
+    position: relative;
+}
+#jy_content_right_bottom_top{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    /*background: purple;*/
+}
+#jy_content_right_bottom_top th{
+    text-align: center;
+}
+#jy_content_right_bottom_top>button{
+    width: 80px;
+    height: 30px;
+    font-size: 13px;
+    background: rgb(218,237,202);
+    border: 1px solid #1dba34;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#jy_content_right_bottom_top>span{
+    color: red;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+#jy_content_right_bottom_bottom{
+    width: 750px;
+    position: absolute;
+    top: 300px;
+}
+#jy_content_right_bottom_bottom>ul{
+    float: right;
+    width: 250px;
+}
+#jy_content_right_bottom_bottom>ul>li{
+    display: inline-block;
+    width: 20px;
+    float: left;
+}
+#jy_content_right_bottom_bottom>ul>span{
+    float: left;
+ }
+#jy_content_right_bottom_bottom>ul>li>a{
+    color: #666666;
+    font-size: 18px;
+}
+
+#jy_content_right_bottom1{
+    width: 750px;
+    height: 800px;
+    position: relative;
+}
+#jy_content_right_bottom1>#jy_content_right_bottom1_top{
+    width: 650px;
+    height: 350px;
+    position: relative;
+    margin-left: 50px;
+}
+#jy_content_right_bottom1>#jy_content_right_bottom1_top>#aa{
+    position: absolute;
+    top: 10px;
+    /*background: #1dba34;*/
+}
+#jy_content_right_bottom1>#jy_content_right_bottom1_top>#bb{
+    position: absolute;
+    top: 40px;
+    /*background-color: #2aabd2;*/
+
+    width: 650px;
+}
+#jy_content_right_bottom1>#jy_content_right_bottom1_top>#bb>.jj{
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 1px #cccccc;
+}
+#jy_content_right_bottom1>#jy_content_right_bottom1_top>#bb>.jj>div{
+    height: 50px;
+    width: 600px;
+    line-height: 50px;
+    margin-left: 15px;
+}
+#jy_content_right_bottom1>#jy_content_right_bottom1_top>#bb>.jj>.ii{
+    border-bottom: 1px solid #000;
+}
+#jy_content_right_bottom1>#jy_content_right_bottom1_top>#bb>.jj>.aaa{
+    color: #2b542c;
+}
+#jy_content_right_bottom1>#jy_content_right_bottom1_top>#cc{
+    width: 750px;
+    position: absolute;
+    top: 300px;
+}
+#jy_content_right_bottom1>#jy_content_right_bottom1_top>#cc>ul{
+    float: right;
+    width: 250px;
+}
+#jy_content_right_bottom1>#jy_content_right_bottom1_top>#cc>ul>li{
+    display: inline-block;
+    width: 20px;
+    float: left;
+}
+#jy_content_right_bottom1>#jy_content_right_bottom1_top>#cc>ul>span{
+    float: left;
+    color: #666666;
+    font-size: 18px;
+}
+#jy_content_right_bottom1>#jy_content_right_bottom1_top>#cc>ul>li>a{
+    color: #666666;
+    font-size: 18px;
+}
+#jy_content_right_bottom1>#dd{
+    width: 650px;
+    height: 400px;
+    /*background: #2aabd2;*/
+    margin-left: 50px;
+}
+#jy_content_right_bottom1>#dd>#ee{
+    width: 600px;
+}
+#jy_content_right_bottom1>#dd>#fff{
+    border: 1px solid #000;
+}
+#jy_content_right_bottom1>#dd>#fff>#ff{
+    margin-top: 20px;
+    position: relative;
+}
+#jy_content_right_bottom1>#dd>#fff>#ff>div{
+    position: absolute;
+    left: 10px;
+
+}
+#jy_content_right_bottom1>#dd>#fff>#ff>div>span{
+    line-height: 100px;
+}
+#jy_content_right_bottom1>#dd>#fff>#ff>textarea{
+    margin-left: 80px;
+    width: 550px;
+    height: 100px;
+}
+#jy_content_right_bottom1>#dd>#fff>#gg{
+    width: 650px;
+    height: 50px;
+}
+#jy_content_right_bottom1>#dd>#fff>#gg>#hh{
+    float: left;
+    margin-left: 10px;
+}
+#jy_content_right_bottom1>#dd>#fff>#gg>button{
+    margin-top: 10px;
+    margin-right: 40px;
+    float: right;
+}
+
+
+#tan1{
+    width: 300px;
+    /*height: 300px;*/
+    background: #eeeeee;
+    position: absolute;
+    top: 50px;
+    left: 160px;
+    border: 1px solid #000;
+    display: none;
+}
+#tan1>.pp{
+
+}
+#tan1>.pp>.vv>span{
+    display: inline-block;
+    margin-left: 10px;
+    line-height: 30px;
+}
+#tan1>.pp>.vv>div{
+    margin-left: 30px;
+}
+#oo{
+    width: 299px;
+    height: 32px;
+    background: #1dba34;
+    box-sizing: border-box;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+}
+#oo>.ll{
+    float: left;
+    margin-left: 20px;
+    line-height: 30px;
+}
+#oo>.kk{
+    float: right;
+    /*margin-right: 3px;*/
+}
+#oo>.kk>img{
+    width: 30px;
+    height: 30px;
+}
+#tan1>.pp button{
+    width: 50px;
+    border-radius: 5px;
+    margin-top: 30px;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+#tan2{
+    width: 300px;
+    /*height: 300px;*/
+    background: #eeeeee;
+    position: absolute;
+    top: 50px;
+    left: 160px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: none;
+}
+#tan2>.pp{
+
+}
+#tan2>.pp>.vv>span{
+    display: inline-block;
+    margin-left: 10px;
+    line-height: 30px;
+}
+#tan2>.pp>.vv>div{
+    margin-left: 30px;
+}
+#tan2>.pp>.vv>div>textarea{
+    width: 250px;
+    height: 100px;
+}
+#ooo{
+    width: 299px;
+    height: 32px;
+    background: #1dba34;
+    box-sizing: border-box;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+}
+#ooo>.ll{
+    float: left;
+    margin-left: 20px;
+    line-height: 30px;
+}
+#ooo>.kk{
+    float: right;
+    /*margin-right: 3px;*/
+}
+#ooo>.kk>img{
+    width: 30px;
+    height: 30px;
+}
+#tan2>.pp button{
+    width: 50px;
+    border-radius: 5px;
+    margin-top: 30px;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+
+#tan3{
+    width: 300px;
+    height: 200px;
+    background: #eeeeee;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: none;
+}
+#oooo{
+    width: 299px;
+    height: 32px;
+    background: #1dba34;
+    box-sizing: border-box;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+}
+#oooo>.ll{
+    float: left;
+    margin-left: 20px;
+    line-height: 30px;
+}
+#oooo>.kk{
+    float: right;
+    /*margin-right: 3px;*/
+}
+#oooo>.kk>img{
+     width: 30px;
+     height: 30px;
+ }
+#tan3>.pp>.jj{
+    width: 150px;
+    margin: 40px auto;
+}
+#tan3>.pp>.uu{
+    width: 150px;
+    margin: 0 90px;
+}
+#tan3>.pp>.uu>#zz{
+    margin-right: 10px;
+}
+
+
+#tan4{
+    width: 300px;
+    height: 200px;
+    background: #eeeeee;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: none;
+}
+#ooooo{
+    width: 299px;
+    height: 32px;
+    background: #1dba34;
+    box-sizing: border-box;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+}
+#ooooo>.ll{
+    float: left;
+    margin-left: 20px;
+    line-height: 30px;
+}
+#ooooo>.kk{
+    float: right;
+    /*margin-right: 3px;*/
+}
+#ooooo>.kk>img{
+    width: 30px;
+    height: 30px;
+}
+#tan4>.pp>.jj{
+    width: 70px;
+    margin: 40px auto;
+}
+#tan4>.pp>.uu{
+    width: 70px;
+    margin: 0 112px;
+}
+#tan4>.pp>.uu>#zzz{
+    width: 60px;
+    margin-right: 10px;
+}
+
+
+#tan5{
+    width: 300px;
+    height: 200px;
+    background: #eeeeee;
+    position: fixed;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: none;
+}
+#oooooo{
+    width: 299px;
+    height: 32px;
+    background: #1dba34;
+    box-sizing: border-box;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+}
+#oooooo>.ll{
+    float: left;
+    margin-left: 20px;
+    line-height: 30px;
+}
+#oooooo>.kk{
+    float: right;
+    /*margin-right: 3px;*/
+}
+#oooooo>.kk>img{
+    width: 30px;
+    height: 30px;
+}
+#tan5>.pp>.jj{
+    width: 200px;
+    margin: 40px auto;
+}
+#tan5>.pp>.uu{
+    width: 70px;
+    margin: 0 115px;
+}
+#tan5>.pp>.uu>#zzzz{
+    width: 60px;
+    margin-right: 10px;
+}

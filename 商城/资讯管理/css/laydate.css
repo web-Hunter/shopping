@@ -1,0 +1,173 @@
+
+.laydate-box li{
+	list-style: none;
+}
+.laydate-box .icon{
+	position: absolute;
+	top: 5px;
+	right: 255px;
+	height: 25px;
+	width: 25px;
+	background: #fff;
+}
+.laydate-box{
+	height: 34px;
+	width: 154px;
+	border: none;
+	margin: -26px 0 0 150px;
+	/*position: relative;*/
+
+}
+#laydateInput{
+	outline: none;
+	display: block;
+	height: 30px;
+	width: 150px;
+	font-size: 16px;
+	line-height: 30px;	
+}
+.laydate-box .select-date{
+	position: absolute;
+	left: 150px;
+	top:35px;
+	width: 266px;
+	height: 301px;
+	border: 1px solid #58abff;
+	display: none;
+	background: #FFFFFF;
+}
+.laydate-box .select-date-header{
+	height: 48px;
+	border-bottom: 1px solid #58abff;
+}
+.laydate-box .heade-ul{
+	height: 49px;
+}
+.laydate-box .header-item{
+	height: 28px;
+	float: left;
+	margin-top: 9px;
+}
+.laydate-box .header-item select{
+	height: 28px;
+}
+.laydate-box .header-item-one select{
+	width: 68px;
+	margin-left: 10px;
+	height: 30px;
+	outline: none;
+}
+.laydate-box .header-item-one{
+	height: 30px;
+}
+.laydate-box .header-item-two i{
+	display: block;
+	float: left;
+	height: 28px;
+	width: 28px;
+	line-height: 28px;
+	text-align: center;
+	cursor: pointer;
+}
+.laydate-box .header-item-two i{
+	display: block;
+	float: left;
+	height: 28px;
+	width: 28px;
+	line-height: 28px;
+	text-align: center;
+	cursor: pointer;
+}
+.laydate-box .header-item-two{
+	border: 1px solid #ccc;
+	margin-left: 10px;
+}
+.laydate-box .header-item-two select{
+	float: left;
+	border: none;
+	outline: none;
+}
+.laydate-box .header-item-two i:nth-child(1){
+	border-right: 1px solid #ccc;
+}
+.laydate-box .header-item-two i:nth-child(3){
+	border-left: 1px solid #ccc;
+}
+.laydate-box .header-item-three{
+	margin-left: 30px;
+	width: 73px;
+}
+.laydate-box .header-item-three span{
+	display: block;
+	height: 100%;
+	border: 1px solid #d8d8d8;
+	background: #f9f9f9;
+	line-height: 28px;
+	text-align: center;
+	font-size: 14px;
+	width: 100%;
+	cursor: pointer;
+}
+.laydate-box .header-item-three span:hover{
+	border-color: #388bff;
+}
+.laydate-box .header-item-three span.active{
+	border-color: #388bff;
+}
+.laydate-box .week-list{
+	height: 35px;
+	width: 100%;
+	border-bottom: 1px solid #c8cacc;
+}
+.laydate-box .week-list li{
+	float: left;
+	height: 35px;
+	width: 35px;
+	text-align: center;
+	line-height: 35px;
+	font-size: 15px;
+	margin: 0 1px;
+	/*font-weight: bold;*/
+	
+}
+.laydate-box .week-list li:nth-child(7){
+	color:#e02d2d
+}
+.laydate-box .week-list li:nth-child(1){
+	color:#e02d2d
+}
+.laydate-box .tabel-line{
+	height: 35px;
+	border-bottom: 1px solid #c8cacc;
+}
+.laydate-box .tabel-ul{
+	height: 35px;
+}
+.laydate-box .tabel-li{
+	height: 31px;
+	width: 31px;
+	text-align: center;
+	line-height: 31px;
+	float: left;
+	border: 2px solid #fff;
+	margin: 0 1px;
+}
+.laydate-box .tabel-li.preDays{
+	color: #bfbfbf;
+}
+.laydate-box .tabel-li.nextDay{
+	color: #bfbfbf;
+}
+.laydate-box .tabel-li:hover{
+	border-color: #ffbb00;
+}
+.laydate-box .tabel-li.showClick{
+	border-color: #ffbb00;
+}
+.laydate-box .tabel-li.active{
+	background: #ffbb00;
+	color: #fff !important;	border-color:#ffbb00;
+}
+.laydate-box .tabel-li.weekColor{
+	color:#e02d2d;
+}

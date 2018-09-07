@@ -1,0 +1,154 @@
+/*#jy_content>#jy_content_right{*/
+    /*width: 750px;*/
+    /*height: 600px;*/
+    /*position: absolute;*/
+    /*right: 0px;*/
+/*}*/
+
+
+#jy_content_right_top{
+    width: 750px;
+    height: 100px;
+    position: relative;
+    /*background: purple;*/
+}
+#jy_content_right_top_top{
+    font-size: 13px;
+    position: absolute;
+    top: 13px;
+    left: 57px;
+    width: 100px;
+    background: #FFFFFF;
+}
+#jy_content_right_top_bottom{
+    position: absolute;
+    bottom: 15px;
+    left: 50px;
+}
+#jy_content_right_top_bottom>button{
+    width: 70px;
+    height: 25px;
+    background: rgb(218,237,202);
+    border: 1px solid #1dba34;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+#jy_content_right_bottom{
+    width: 750px;
+    /*height: 400px;*/
+    position: relative;
+}
+#jy_content_right_bottom_top{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    /*background: purple;*/
+}
+#jy_content_right_bottom_top>ul{
+
+}
+#jy_content_right_bottom_top>ul>li{
+    display: inline-block;
+    width: 650px;
+    margin-bottom: 5px;
+}
+#jy_content_right_bottom_top>ul>li>span{
+    float: left;
+}
+#jy_content_right_bottom_top>ul>li>span>input{
+    margin-right: 5px;
+}
+#jy_content_right_bottom_top>ul>li>span>img{
+    margin-right: 5px;
+}
+#jy_content_right_bottom_top>ul>li>a{
+    float: right;
+}
+#jy_content_right_bottom_top>span{
+    display: inline-block;
+    margin-top: 50px;
+    color: red;
+}
+#jy_content_right_bottom_bottom{
+    width: 750px;
+    position: absolute;
+    top: 300px;
+}
+#jy_content_right_bottom_bottom>ul{
+    float: right;
+    width: 250px;
+}
+#jy_content_right_bottom_bottom>ul>li{
+    display: inline-block;
+    width: 20px;
+    float: left;
+}
+#jy_content_right_bottom_bottom>ul>span{
+    float: left;
+ }
+#tan1{
+    width: 550px;
+    height: 400px;
+    background: #eeeeee;
+    position: absolute;
+    left: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: none;
+}
+#ooo{
+    width: 550px;
+    height: 32px;
+    background: #1dba34;
+    box-sizing: border-box;
+    border-bottom: 1px solid #000;
+    /*border-right: 1px solid #000;*/
+}
+#ooo>.ll{
+    float: left;
+    margin-left: 20px;
+    line-height: 30px;
+}
+#ooo>.kk{
+    float: right;
+    /*margin-right: 3px;*/
+}
+#ooo>.kk>img{
+    width: 30px;
+    height: 30px;
+}
+#tan1>.pp .vg{
+    width: 150px;
+    margin-top: 30px;
+    float: right;
+    margin-right: 60px;
+    margin-bottom: 10px;
+}
+#tan1>.pp button{
+    border-radius: 5px;
+    width: 50px;
+    margin-left: 20px;
+}
+#tan1>.pp>.vv{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+/*#tan1>.pp>.vvv{*/
+    /*margin-bottom: 25px;*/
+    /*margin-left: 10px;*/
+/*}*/
+
+#tan1>.pp>.vvvv{
+    margin-top: 20px;
+}
+#tan1>.pp>.vvvv>span{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#tan1>.pp>.vvvv>div>textarea{
+    width: 500px;
+    height: 100px;
+    margin-left: 20px;
+
+}
